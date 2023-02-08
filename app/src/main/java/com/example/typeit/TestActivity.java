@@ -3,6 +3,7 @@ package com.example.typeit;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -16,6 +17,7 @@ public class TestActivity extends AppCompatActivity {
     EditText EnteredWords;
     Button ResetBtn;
     String fullStory;
+    Button donebtn;
     long BeginTime, StopTime;
     boolean gameBegan = false;
 
@@ -25,10 +27,17 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
+        donebtn = findViewById(R.id.donebtn);
+        donebtn.setOnClickListener(view-> {
+            Intent intent = new Intent(TestActivity.this, extraPage.class);
+            startActivity(intent);
+        });
+
+
         DisplayedWords = (TextView) findViewById(R.id.DisplayedWords);
         GameResult = (TextView) findViewById(R.id.GameResult);
         EnteredWords = (EditText) findViewById(R.id.EnteredWords);
-        ResetBtn = (Button) findViewById(R.id.button);
+        ResetBtn = (Button) findViewById(R.id.resetbtn);
         fullStory = DisplayedWords.getText().toString();
 
         EnteredWords.addTextChangedListener(new TextWatcher() {
