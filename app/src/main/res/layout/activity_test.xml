@@ -5,16 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
+    android:background="@color/black"
     tools:context=".TestActivity">
 
 
     <TextView
         android:id="@+id/DisplayedWords"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="35dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="130dp"
         android:fontFamily="@font/choco"
+        android:layout_below="@id/GameResult"
         android:text="Who was the first person to ride a bike"
         android:textColor="#FF1313"
         android:textSize="30sp"
@@ -26,7 +28,7 @@
         android:layout_height="50dp"
         android:ems="10"
         android:layout_below="@+id/DisplayedWords"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:inputType="textPersonName"
         android:hint="Type here..."
         android:textColorHint="@color/black"
@@ -37,20 +39,19 @@
         android:id="@+id/GameResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/EnteredWords"
         android:textColor="@color/purple_700"
         android:textStyle="italic"
         android:textSize="15sp"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="100dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/GameResult"
+        android:layout_below="@id/EnteredWords"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="200dp"
         android:textSize="20sp"
-        android:backgroundTint="@color/teal_200"
+        android:backgroundTint="#DC1B0D"
         android:text="RESET" />
 </RelativeLayout>
