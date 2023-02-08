@@ -11,13 +11,14 @@
     <TextView
         android:id="@+id/DisplayedWords"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_height="35dp"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/choco"
+        android:text="Who was the first person to ride a bike"
         android:textColor="#FF1313"
-        android:textStyle="bold"
-        android:text="Who was the first person to ride a bike" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/EnteredWords"
