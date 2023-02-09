@@ -4,19 +4,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#694B4B"
-    tools:context=".extraPage">
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".TestActivity">
+
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:id="@+id/DisplayedWords"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/choco"
-        android:text="THANK YOU!"
-        android:textColor="@color/white"
-        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:textSize="40sp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/choco"
+        android:layout_below="@id/GameResult"
+        android:text="@string/WordsToType2"
+        android:textColor="#FF1313"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
+    <EditText
+        android:id="@+id/EnteredWords"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_below="@+id/DisplayedWords"
+        android:layout_marginTop="50dp"
+        android:inputType="textPersonName"
+        android:hint="Type here..."
+        android:textColorHint="@color/black"
+        android:padding="8dp"
+        android:background="@drawable/input_box" />
+
+    <TextView
+        android:id="@+id/GameResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_700"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EnteredWords"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="90dp"
+        android:backgroundTint="#DC1B0D"
+        android:text="BACK"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/donebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EnteredWords"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="201dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#DC1B0D"
+        android:text="DONE"
+        android:textSize="20sp" />
 </RelativeLayout>

@@ -12,12 +12,12 @@
     <TextView
         android:id="@+id/DisplayedWords"
         android:layout_width="match_parent"
-        android:layout_height="35dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="130dp"
         android:fontFamily="@font/choco"
         android:layout_below="@id/GameResult"
-        android:text="Who was the first person to ride a bike"
+        android:text="@string/WordsToType"
         android:textColor="#FF1313"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -50,12 +50,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/EnteredWords"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="201dp"
-        android:layout_marginEnd="65dp"
-        android:layout_toStartOf="@+id/donebtn"
+        android:layout_marginEnd="90dp"
         android:backgroundTint="#DC1B0D"
-        android:text="RESET"
+        android:text="NEXT"
         android:textSize="20sp" />
 
     <Button
@@ -65,7 +64,7 @@
         android:layout_below="@id/EnteredWords"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="201dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="40dp"
         android:backgroundTint="#DC1B0D"
         android:text="DONE"
         android:textSize="20sp" />
