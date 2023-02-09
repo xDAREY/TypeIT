@@ -17,7 +17,7 @@ public class TestActivity extends AppCompatActivity {
     EditText EnteredWords;
     Button ResetBtn;
     String fullStory;
-    Button donebtn;
+    Button nextbtn;
     long BeginTime, StopTime;
     boolean gameBegan = false;
 
@@ -27,8 +27,8 @@ public class TestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
 
-        donebtn = findViewById(R.id.donebtn);
-        donebtn.setOnClickListener(view-> {
+        nextbtn = findViewById(R.id.nextbtn);
+        nextbtn.setOnClickListener(view-> {
             Intent intent = new Intent(TestActivity.this, extraPage.class);
             startActivity(intent);
         });

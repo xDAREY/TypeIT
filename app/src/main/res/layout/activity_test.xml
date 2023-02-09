@@ -49,8 +49,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/EnteredWords"
+        android:layout_marginTop="201dp"
+        android:backgroundTint="#DC1B0D"
+        android:text="RETAKE"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EnteredWords"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="201dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
         android:backgroundTint="#DC1B0D"
         android:text="NEXT"
         android:textSize="20sp" />
