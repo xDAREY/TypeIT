@@ -10,11 +10,17 @@ It is actually divided into 2 components:
 * the take-test button starts the game once it is been clicked.
 * the reset button restarts the entire activity meaning whatever has been typed will get cleared away, then you start again.
 * the next button takes you to another activity if you do not like the current activity or you are done with the current activity.
+* the done button closes the entire app if you have finished the test.
 
 # Stack
 It was built for the android OS using:
-1. Java (Backend)
-2. Android XML (frontend)
+1. Java (Backend).
+2. Android XML (frontend).
+
+# Features
+* A timer was implemented to know how many seconds it took the user to finish the test.
+* A getLength method was also implemented therefore whenever the user does not complete the sentence been displayed, the test & timer will keep running.
+* many more.
 
 # Test-Game UI
 Welcome UI (first activity)
