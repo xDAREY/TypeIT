@@ -1,5 +1,6 @@
 # TypeIT
 A mobile game test that tests your typing speed :)
+
 It is a very simple project and the user does not need to worry much as it helps in building how fast they are typing on a mobile device, lets call it a mobile "mavins beacon".
 
 # Components
