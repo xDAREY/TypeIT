@@ -4,8 +4,12 @@ It is a very simple project and the user does not need to worry much as it helps
 
 # Components
 It is actually divided into 2 components:
-1. The take-test screen
-2. The test screen.
+1. The welcome UIscreen.
+2. The test screen (which has four buttons TAKE-TEST, RESET, NEXT & DONE button).
+
+* the take-test button starts the game once it is been clicked.
+* the reset button restarts the entire activity meaning whatever has been typed will get cleared away, then you start again.
+* the next button takes you to another activity if you do not like the current activity or you are done with the current activity.
 
 # Stack
 It was built for the android OS using:
