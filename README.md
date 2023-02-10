@@ -15,5 +15,10 @@ It was built for the android OS using:
 # Test-Game UI
 Welcome UI (first activity)
 ![StartPage](https://user-images.githubusercontent.com/107740351/218145016-dd662c52-1c8a-4906-b16a-c896db156989.png)
-Test UI (second activity)
+
+Test-inProgress UI (second activity)
+![TestTaking](https://user-images.githubusercontent.com/107740351/218145600-246d7a43-3408-4a1a-a0a3-7411e6db0013.png)
+
+
+Test-taken UI (third activity)
 ![testTaken](https://user-images.githubusercontent.com/107740351/218145165-c899ce98-2c7f-48dc-a499-2bdead7cb1ca.png)
