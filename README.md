@@ -19,7 +19,7 @@ It was built for the android OS using:
 2. Android XML (frontend).
 
 # Features
-* A timer was implemented to know how many seconds it took the user to finish the test.
+* A timer method was implemented to know how many seconds it took the user to finish the test.
 * A getLength method was also implemented therefore whenever the user does not complete the sentence been displayed, the test & timer will keep running.
 * many more.
 
